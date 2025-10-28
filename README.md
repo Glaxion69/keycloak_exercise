@@ -26,6 +26,17 @@ Prerequisites:
 ```
 pip install -r requires.txt
 ```
+## Optional .env support
+
+### `REDHAT_CATALOG_BASE_URL`
+Description:Base URL for the Red Hat Container Catalog API. Defaults to `https://catalog.redhat.com/api/containers/v1` if not set.
+
+Example value:`https://catalog.redhat.com/api/containers/v1`
+
+### `LOG_LEVEL`
+Description: Controls logging verbosity. Supported values: `DEBUG`, `INFO`, `WARNING`, `ERROR`. Defaults to `INFO`.
+
+Example value: `DEBUG`
 
 ## Usage
 ```
