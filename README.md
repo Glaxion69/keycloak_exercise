@@ -5,16 +5,6 @@ Generates JSON reports on the most recent `rhbk/keycloak-rhel9` container images
 
 ## Quickstart
 
-Run the following bash script for end-to-end execution. this is the simplest way to run generate_keycloak_stream_report.py
-
-Make the script as an executable
-```bash
-chmod +x run.sh
-```
-Run the script
-```bash
-./run.sh
-```
 ## Developer mode
 
 Prerequisites:
@@ -46,6 +36,18 @@ python generate_keycloak_stream_report.py
 ### To save the Output in a JSON file
 ```
 python generate_keycloak_stream_report.py > report.json
+```
+
+## Only For Linux systems.
+Run the following bash script for end-to-end execution. this is the simplest way to run generate_keycloak_stream_report.py
+
+Make the script as an executable
+```bash
+chmod +x run.sh
+```
+Run the script
+```bash
+./run.sh
 ```
 
 ## Intuition
