@@ -16,7 +16,7 @@ fi
 
 
 source venv/bin/activate
-pip install -q -r requirements.txt
+pip install -q -r requires.txt
 
 
 python generate_keycloak_stream_report.py
